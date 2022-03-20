@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- NAVBAR START -->
+        <div class="container">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"> <img src="/assets/icon/bootstrap-logo.svg" alt="" width="30"
+                            height="24"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Anasayfa</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Yeni Filmler</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Kategoriler
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Aksiyon</a></li>
+                                    <li><a class="dropdown-item" href="#">Korku </a></li>
+                                    <li><a class="dropdown-item" href="#">Komedi </a></li>
+                                    <li><a class="dropdown-item" href="#">Sanatsal </a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Yıla Göre Ara</a></li>
+                                </ul>
+                            </li>
+                            <!-- <li class="nav-item">
+                                <a class="nav-link disabled">Disabled</a>
+                            </li> -->
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Film Ara..."
+                                aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">ARA</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- NAVBAR END -->
+        <!-- CARAUSEL START -->
+        <div class="container">
+
+            <div id="carouselExampleCaptions" class="carousel slide carousel-fade w-75 mx-auto mt-5 "
+                data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+                        aria-label="Slide 6"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6"
+                        aria-label="Slide 7"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7"
+                        aria-label="Slide 8"></button>
+                </div>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active ">
+                        <img src="assets/img/kimlik.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Kimlik (2003)</h5>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="assets/img/başkalarının.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Başkalarının Hayatı (2006)</h5>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/batman.jpg" class="d-block  w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Batman: Başlıyor (2005) </h5>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="assets/img/izSürücü.jpg" class="d-block  w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>
+                                İz Sürücü (1979)</h5>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="assets/img/kapıdaki.jpg" class="d-block  w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Kapıdaki Düşman (2001)
+                            </h5>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="assets/img/asabiyim.jpg" class="d-block  w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Asabiyim Ben (2014)</h5>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="assets/img/ucuz.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Ucuz Roman (1994)</h5>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="assets/img/kurye.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Kurye (2021) </h5>
+                            <p></p>
+                        </div>
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+                    <span class="">Önceki</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="">Sonraki</span>
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+                </button>
+            </div>
+        </div>
+        <!-- CRAUSEL END -->
+        <!-- CARDS START -->
+        <div class="container mt-5">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                <div class="col">
+                    <div class="card">
+                        <img src="assets/icon/kimlik1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Kimlik</h5>
+                            <p class="card-text">Çölün ortasında bir gece. Korkunç bir kasırga dış dünya ile tüm
+                                bağlantıları koparır. 10 yabancı, tuhaf bir yolüstü oteline sığınmak zorunda
+                                kalmışlardır. Dışarıyla herhangi bir iletişim kurabilmek imkansız gibidir. Ve kaynağını
+                                tam olarak anlayamadıkları cinayetler başlar. Bir güç, tek tek hepsini öldürmeyi
+                                kafasını koymuştur. Fakat olaylara rastlantının penceresinden bakmayı bıraktıklarında,
+                                içinde bulundukları durumun çok daha karışık olduğunu farkederler. Amerikan bağımsız
+                                sinemasının heyecan verici isimlerinden James Mangold tarafından çekilen korku gerilim,
+                                oyuncularıyla da dikkat çekiyor.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="assets/icon/başkalarının1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Başkalarının Hayatı</h5>
+                            <p class="card-text">Doğu Almanya'nın kapalı politik atmosferi içinde, partiye ve devlete
+                                sadakatleri sürekli sorgulanan insanlar, daimi bir baskı altındadırlar. Gerd Wiesler de,
+                                ünlü oyun yazarı Georg Dreyman'ı gözlemlemekle görevlendirilmiş bir yüzbaşıdır. Yazar ve
+                                sevgilisinin yaşadıkları apartmanın çatı katına yerleşen Yüzbaşı, sürekli olarak
+                                ikilinin yaşamını Bakan Hempf'e rapor etmektedir. Uzun bir süre herhangi bir olumsuzluk
+                                rapor edemez. Ta ki Bakan Hempf, Georg Dreyman'ın kız arkadaşına cinsel tacizde bulunana
+                                kadar. Sevgilisinin maruz kaldığı durum üzerine yaşadığı baskı ile ilgili sabrı taşan
+                                Georg, Doğu Almanya'daki koşulları tüm dünyanın duyması için Der Spiegel'e yazı yazmaya
+                                karar verir. Yüzbaşı için aradığı fırsat sonunda doğmuştur. Ama günler boyu izlediği bu
+                                iki insanın hayatının kendi üzerinde bıraktığı etkiler, hayatını ve varoluşunu
+                                sorgulamasına neden olacaktır. Katıldığı pek çok festivalde ödüle boğulan Başkalarının
+                                Hayatı, etkili anlatımı ve hümanist yaklaşımı ile dikkat çekiyor.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="assets/icon/batman1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Batman Başlıyor</h5>
+                            <p class="card-text">Batman efsanesinin devamı olan Batman Başlıyor'da Kara Şövalye Gotham
+                                şehrinin iyiliği için her şeyi göze alıyor. Anne ile babasının ölümünün ardından hayal
+                                kırıklığına uğrayan miras zengini Bruce Wayne (Christian Bale) adaletsizliğe karşı
+                                savaşmak ve korkanlardan beslenenleri korkutmak için dünyayı gezer. Gotham'a geri dönen
+                                Wayne, şehri tehdit eden kötü güçlerle gücü, zekası ve bir dizi ileri teknoloji cihazı
+                                kullanan maskeli kahraman Batman olarak ortaya çıkar.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="assets/icon/izsürücü1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">İz Sürücü</h5>
+                            <p class="card-text">Bir nevi kıyamet sonrası gelecekte, isimsiz bir ülkedeyiz. Düşen dev
+                                bir meteor açıklanması güç olaylara sebep olmuştur. Yarattığı etki 'Bölge' adı verilen
+                                bir alanda etkili olmaktadır. Bu alanın ortasında yer alan bir odada insanlığın en derin
+                                tutkularını gerçek yapacağı söylenen bir güç vardır. Dikenli teller ve askerlerle
+                                korunan Bölge'ye sadece zihinsel güçleri ve yeterli cesaretleri olan İz Sürücüler
+                                girebilmekte ve eşlik ettikleri insanları odadaki güçle yüzleşmeye götürmektedirler.
+                                Kahramanımız da böyle bir İz Sürücü'dür. Karısının itirazlarına rağmen bir bilim adamını
+                                ve bir de yazarı yanına alarak hayatının yolculuğuna çıkar.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="assets/icon/kapıdaki1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Kapıdaki Düşman</h5>
+                            <p class="card-text">Yıl 1942. Naziler Rusya'da ölümcül bir harekata girişmiştir.
+                                Kruschev'in (Bob Hoskins) liderliğindeki Stalingrad vatandaşlarıysa cesur bir direnişe
+                                geçmiş, yerel halk kahramanı Vassili Zaitsev'in (Jude Law) ışığıyla tek yumruk haline
+                                gelmiştir. Uzman bir keskin nişancı olan Vassili'nin gösterdiği kahramanlıklar en yakın
+                                arkadaşı politik subay Danilov (Joseph Fiennes) tarafından yürütülen bir propaganda
+                                sayesinde efsaneleşmiştir. Vassili'yi durdurmak için Almanlar en iyi keskin nişancıları
+                                olan Albay Konig'i (Ed Harris) Stalingrad'a gönderirir...
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="assets/icon/asabiyim1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Asabiyim Ben</h5>
+                            <p class="card-text">Öfkenin iliklere işlediği, dengenin her daim hassas olduğu bir
+                                toplumda, aşkların, nefretin ve intikam duygusunun hüküm sürdüğü birbirinden bağımsız
+                                bireylerin öykülerini taşıyor perdeye Asabiyim Ben... Satın alınan şereflerin
+                                gölgesinde, insanların kanunlar karşısında çaresiz ve öfkeli olduğu bir dünyaya ait altı
+                                farklı hayat hikayesi dikiyor karşımıza. Yolsuzluğun ve yozlaşmışlığın hüküm sürdüğü bir
+                                ülkede, kana bulanan muhteşem düğünler, ölüme yürüyen danslar, telleri iyiden iyiye
+                                gevşeyen sinirler ve bu yoldan çıkmışlığı tasvir eden "eğlenceli" öyküler! Damian
+                                Szifron, tam 8 yıl aradan sonra Relatos Salvajes (Wild Tales) ile sinema dünyasına dönüş
+                                yapıyor. Film, Buenos Aires ve çevresinde yaşanan altı farklı hayat hikayesini
+                                beyazperdeye taşınıyor * Uyumadan işe götürtecek film. Bazı sahnelerde öfkeyle doldurdu
+                                bazı sahnelerde gecenin üçü demeden kahkaha attırdı.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="assets/icon/ucuz1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Ucuz Roman</h5>
+                            <p class="card-text">Jules Winnfield ve Vincent Vega, mafya babası patronları Marsellus
+                                Wallace’tan çalınan bir çantayı geri almaya giden iki profesyonel tetikçidir. Wallace
+                                aynı zamanda Vincent’a, kendisi birkaç gün sonra şehir dışındayken karısını dışarı
+                                çıkarmasını söyler. Butch Coolidge, bir sonraki maçını kaybetmesi için Wallace’tan para
+                                alan yaşlı bir boksördür. Honey Bunny ve Pumpkin, yer değişikliğine ihtiyaçları olduğuna
+                                karar veren soyguncu bir çifttir. Görünüşte birbirleriyle alakası olmayan bu insanların
+                                hayatları, hem heyecanlı hem de eğlendirici bir sinema filmi macerasında nefes kesici
+                                bir şekilde birleşecektir.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="assets/icon/kurye1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Kurye</h5>
+                            <p class="card-text">Özel bir taşıyıcı, gizemli bir çantayı hedefine ulaştırması için
+                                görevlendirilir. Normal bir görev gibi düşünülen bu iş, yeraltı dünyasının en tehlikeli
+                                kiralık katiline götürülünce işler haliyle değişecektir. Bu kadar önemli bir çantanın
+                                peşinde elbette sadece bu kiralık katil yoktur.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <!-- CARDS END -->
+
+
+
+
+
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
